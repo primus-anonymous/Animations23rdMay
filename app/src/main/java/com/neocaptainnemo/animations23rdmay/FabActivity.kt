@@ -9,8 +9,6 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import com.google.android.material.appbar.AppBarLayout
 
 class FabActivity : AppCompatActivity() {
 
@@ -33,13 +31,6 @@ class FabActivity : AppCompatActivity() {
 
         val menuItemHeight = resources.getDimension(R.dimen.menu_height)
         val menuItemMargin = resources.getDimension(R.dimen.margin_menu_8)
-
-        val toolbar: Toolbar = findViewById(R.id.toolbar)
-
-        toolbar.postDelayed({
-            toolbar.isSelected = true
-        }, 2000L)
-
 
         fun closeMenu() {
 

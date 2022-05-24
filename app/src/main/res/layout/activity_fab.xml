@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stateListAnimator="@animator/toolbar_selector"/>
+            />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -30,6 +30,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@animator/toolbar_selector"/>
 
             <CalendarView
                 android:layout_width="match_parent"
